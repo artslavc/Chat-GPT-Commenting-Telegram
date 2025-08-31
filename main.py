@@ -45,7 +45,7 @@ except:
 if date_activation != 'unlimit':
     if current_date > date_activation:
         print('Ваша Подписка Истекла!\n'
-              'Напишите в Telegram Для Продления: @phonby')
+              'Напишите в Telegram Для Продления: ')
         input('\nНажмите ENTER Для Завершения...')
         sys.exit(0)
 
